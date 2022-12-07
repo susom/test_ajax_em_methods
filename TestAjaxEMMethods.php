@@ -31,7 +31,9 @@ class TestAjaxEMMethods extends \ExternalModules\AbstractExternalModule {
         $survey_hash, $response_id, $survey_queue_hash, $page, $page_full, $user_id, $group_id)
     {
         \Plugin::log(func_get_args());
-        return json_encode(["success"=>true]);
+
+        // Return is left as php object, is converted automatically
+        return ["success"=>true];
     }
 
 
