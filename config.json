@@ -18,10 +18,21 @@
 	],
 
 	"permissions": [
-		"redcap_every_page_before_render"
+		"redcap_every_page_before_render",
+        "redcap_data_entry_form_top"
 	],
-	
-	"enable-every-page-hooks-on-system-pages": false,	
+
+    "enable-ajax-logging": true,
+
+    "auth-ajax-actions": [
+        "MyAction"
+    ],
+
+    "no-auth-ajax-actions": [
+        "MyAction"
+    ],
+
+	"enable-every-page-hooks-on-system-pages": false,
 
 	"links": {
 		"project": [
