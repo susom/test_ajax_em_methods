@@ -37,12 +37,17 @@
 
 	"links": {
 		"project": [
-			{
-				"name": "JSMO Test1",
-				"icon": "fas fa-cog",
-				"url": "pages/test1.php"
-			}
-		],
+          {
+            "name": "JSMO Test1",
+            "icon": "fas fa-cog",
+            "url": "pages/test1.php"
+          },
+          {
+            "name": "VueJs JSMO Test",
+            "icon": "fas fa-cog",
+            "url": "pages/vuejs.php"
+          }
+        ],
 		"control-center": [
 
 		]
